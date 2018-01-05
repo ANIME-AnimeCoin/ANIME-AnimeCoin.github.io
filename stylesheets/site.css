@@ -31,6 +31,14 @@ svg {
 p {
   line-height: 1.65rem; }
 
+.roadmap {
+  font-size: 1.2rem;
+  color: #212529;
+  font-weight: bold;
+  text-decoration: underline; }
+  .roadmap:hover {
+    color: #667eea; }
+
 .coinmarketcap-currency-widget {
   background: #f2f2f2;
   border-radius: 10px; }
