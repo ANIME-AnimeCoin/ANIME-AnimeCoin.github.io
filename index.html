@@ -17,6 +17,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/creative.min.css" rel="stylesheet">
     <link href="css/ball.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
   </head>
 
   <body id="page-top">
@@ -50,17 +51,24 @@
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>
-              We aim — first and foremost — to be the most fair, transparent, secure, decentralized, and honest mastercoin on the crypto market.
-            </h2>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">We will do this while specifically appealing to the anime community with exciting features, creating an immediate use-case for the new ANIM coins.</p>
-
-<p class="text-faded mb-5">This use case is the ability to issue "provably rare" anime-related digital images on the blockhain that can then be traded on a decentralized exchange for ANIM coins.</p>
-          </div>
+		   <div class='col-md-3 w3-content w3-section'>
+				<div class="w3-content w3-section">
+				  <img class="mySlides w3-animate-fading" src='images/animecoin.png' width='95%' height='95%'>
+				  <img class="mySlides w3-animate-fading" src='images/bitcoin.png' width='95%' height='95%'>
+				</div>
+		  </div>
+		  <div class='col-md-9'>
+			  <div class="col-lg-10 mx-auto">
+				<h2>
+				  We aim — first and foremost — to be the most fair, transparent, secure, decentralized, and honest mastercoin on the crypto market.
+				</h2>
+				<hr>
+			  </div>
+			  <div class="col-lg-8 mx-auto">
+				<p class="text-faded mb-5">We will do this while specifically appealing to the anime community with exciting features, creating an immediate use-case for the new ANIM coins.</p>
+				<p class="text-faded mb-5">This use case is the ability to issue "provably rare" anime-related digital images on the blockhain that can then be traded on a decentralized exchange for ANIM coins.</p>
+			  </div>
+		  </div>
         </div>
       </div>
     </header>
@@ -127,7 +135,20 @@
     <script src="js/ball.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
+	<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 15000);    
+}</script>
   </body>
 
 </html>
