@@ -12,6 +12,9 @@
 .navbar-nav{
 
 }
+#navbarResponsive{
+	margin-left:35%;
+}
 
 .container-setting{
     overflow: hidden
