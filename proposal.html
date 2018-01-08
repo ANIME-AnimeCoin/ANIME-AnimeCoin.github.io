@@ -14,6 +14,66 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/custom.js"></script>
 		<title>ANIM Proposal/Roadmap</title>
+		<style>
+		/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use webkit (Chrome, Opera, Safari, Edge) and moz (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+.range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: $range-label-width;
+  color: $shade-0;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: $range-label-color;
+  padding: 5px 10px;
+  margin-left: 8px;
+
+  &:after {
+    position: absolute;
+    top: 8px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid $range-label-color;
+    border-bottom: 7px solid transparent;
+    content: '';
+  }
+}
+		</style>
 	</head>
 	
 	<body>
@@ -306,22 +366,32 @@
 		<h4>Illustrative Examples:</h4>							
 		<p>Suppose Akira owns <span id="akira_change" data-toggle="tooltip" data-placement="top" title="Change">8,500,000</span> ANI that he mined or purchased in 2014, and he holds those ANI coins on 2/1/2018; then Akira will receive:</p>							
 		<div class='row'>							
-			<div class='col-md-2'><input type="text" class="form-control" value='8,500,000.0' readonly/></div>
-			<div class='col-md-1' style='text-align:center'>X</div> 
-			<div class='col-md-2'><input type="text" class="form-control" value='0.00367680' readonly/></div>
+			<div class='col-md-3'>
+			<div class="slidecontainer">
+			  <input type="range" min="1" max="8500000" value="1" class="range-slider__range" id="myRange1">
+			  <span id='demo1' class='range-slider__value'></span>
+			</div>
+			</div>
+			<div class='col-md-1' style='text-align:center'>&times;</div> 
+			<div class='col-md-2'><input id='anime' type="text" class="form-control" value='0.00367680' readonly/></div>
 			<div class='col-md-1' style='text-align:center'>=</div>
-			<div class='col-md-2'><input type="text" class="form-control" value='31,252.82  ANIM' readonly/></div>
-			<div class=' col-md-offset-4'></div>	
+			<div class='col-md-2'><input id='value1' type="text" class="form-control" value='0.00367680  ANIM' readonly/></div>
+			<div class=' col-md-offset-3'></div>	
 		</div>							
 		<p>Suppose Pepina owns 15,000 MEME that she bought in December of 2017 to use for a MEME master node, and she holds those MEME coins on 2/1/2018; then Pepina will recieve:</p>							
 		<div class='row'>							
-			<div class='col-md-2'><input type="text" class="form-control" value='15,000.0' readonly/></div>
-			<div class='col-md-1' style='text-align:center'>X</div> 
-			<div class='col-md-2'><input type="text" class="form-control" value='0.16728677' readonly/></div>
+			<div class='col-md-3'>
+			<div class="slidecontainer">
+			  <input type="range" min="1" max="15000" value="1" class="range-slider__range" id="myRange2">
+			  <span id='demo2' class='range-slider__value'></span>
+			</div>
+			</div>
+			<div class='col-md-1' style='text-align:center'>&times;</div> 
+			<div class='col-md-2'><input id='meme' type="text" class="form-control" value='0.16728677' readonly/></div>
 			<div class='col-md-1' style='text-align:center'>=</div>
-			<div class='col-md-2'><input type="text" class="form-control" value='2,509.30  ANIM' readonly/></div>
-			<div class=' col-md-offset-4'></div>
-		</div>	
+			<div class='col-md-2'><input id='value2' type="text" class="form-control" value='0.16728677  ANIM' readonly/></div>
+			<div class=' col-md-offset-3'></div>
+		</div>
 	</div>
 	
 	<br/>
@@ -553,6 +623,25 @@ function carousel() {
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 15000);    
+}
+
+var slider1 = document.getElementById("myRange1");
+var slider2 = document.getElementById("myRange2");
+var output1 = document.getElementById("demo1");
+var output2 = document.getElementById("demo2");
+var anime = document.getElementById("anime").value;
+var meme = document.getElementById("meme").value;
+var value1 = document.getElementById("value1");
+var value2 = document.getElementById("value2");
+output1.innerHTML = slider1.value; // Display the default slider value
+output2.innerHTML = slider2.value; // Display the default slider value
+// Update the current slider value (each time you drag the slider handle)
+slider1.oninput = function() {
+    output1.innerHTML = this.value;
+	value1.value = (this.value*anime)+"   ANIM";
+}
+slider2.oninput = function() {
+    value2.value = (this.value*meme)+"   ANIM";
 }
 </script>									
 </body>
