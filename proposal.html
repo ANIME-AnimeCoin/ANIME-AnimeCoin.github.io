@@ -638,10 +638,11 @@ output2.innerHTML = slider2.value; // Display the default slider value
 // Update the current slider value (each time you drag the slider handle)
 slider1.oninput = function() {
     output1.innerHTML = this.value;
-	value1.value = (this.value*anime)+"   ANIM";
+	value1.value = (this.value*anime)+" ANIM";
 }
 slider2.oninput = function() {
-    value2.value = (this.value*meme)+"   ANIM";
+    output2.innerHTML = this.value;
+    value2.value = (this.value*meme)+" ANIM";
 }
 </script>									
 </body>
