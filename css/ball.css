@@ -5,3 +5,24 @@
 }body {
   background: #262b2e
 }
+
+.logo{
+  margin:0 auto;
+  width:300px;
+  margin-bottom: 10px;
+}
+.logo-container{
+  width:100%;
+  background: #fff;
+  padding-left:20px;
+}
+
+.navbar{
+  background: #fff !important;
+}
+.nav-item li a{
+  color:#000 !important;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link{
+  color:#000 !important;
+}
