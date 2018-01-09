@@ -1,0 +1,37 @@
+.bitcointalk-img{
+    display: block;
+    margin-bottom: 20px;
+}
+@media (max-width:768px){
+    #mainNav .navbar-nav>li.nav-item>a.nav-link{
+        font-size: 20px;
+        line-height: normal;
+        padding: 5px 0px;
+        text-decoration: underline;
+    }
+    .prop-nav .navbar-nav>li>a{
+        padding: 0px 0px 5px 0px;
+    }
+    .prop-nav .navbar-nav{
+        width: auto;
+    }
+    .navbar.affix {
+        width: 100%;
+        margin: 0 -15px !important;
+    }
+    .navbar.affix .navbar-header{
+        margin: 0px;
+    }
+    .navbar-default .navbar-toggle{
+        margin-right: 0px;
+    }
+    mark {
+        padding-top: 0px !important;
+        line-height: normal;
+    }
+    img{
+        display: block;
+        margin: 0px auto;
+        padding-bottom: 10px;
+    }
+}

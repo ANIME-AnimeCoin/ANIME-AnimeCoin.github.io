@@ -12,9 +12,6 @@
 .navbar-nav{
 
 }
-#navbarResponsive{
-	margin-left:35%;
-}
 
 .container-setting{
     overflow: hidden
@@ -53,13 +50,32 @@
     background: #fff ;
     border:none;
 }
-
+.logo{
+    margin: 0px;
+}
+.logo img{
+    max-width: 100%;
+}
+header.masthead{
+    padding-top: 0px;
+}
+@media (max-width:768px){
+    #mainNav .navbar-nav>li.nav-item>a.nav-link{
+        font-size: 20px;
+        line-height: normal;
+        padding: 5px 0px;
+        text-decoration: underline;
+    }
+    #navbarResponsive{
+        margin: 0 auto;
+    }
+    .logo{
+        margin: 0px auto 20px;
+    }
+}
 @media screen and (max-width: 990px) {
  
 }
 .w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
 .w3-content{max-width:980px;margin:auto}.w3-rest{overflow:hidden}
 .w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-.row{
-    padding:0 15px;
-}
