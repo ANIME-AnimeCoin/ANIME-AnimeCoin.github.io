@@ -52,6 +52,7 @@
 }
 .logo{
     margin: 0px;
+    width: 200px;
 }
 .logo img{
     max-width: 100%;
@@ -71,6 +72,7 @@ header.masthead{
     }
     .logo{
         margin: 0px auto 20px;
+        width: 300px;
     }
 }
 @media screen and (max-width: 990px) {
