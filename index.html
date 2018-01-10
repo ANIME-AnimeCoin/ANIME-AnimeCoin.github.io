@@ -49,8 +49,11 @@
         <div class="row">
 		   <div class='col-md-4 w3-content w3-section'>
 				<div class="w3-content w3-section">
-				  <img class="mySlides w3-animate-fading" src='images/animecoin.png' width='95%' height='95%'>
-				  <img class="mySlides w3-animate-fading" src='images/bitcoin.png' width='95%' height='95%'>
+				    <img class="mySlides w3-animate-fading" srcset="images/animecoin-small.png 500w, images/animecoin-big.png 1000w" src='images/animecoin-big.png' width='95%' height='95%'>
+                    <img class="mySlides w3-animate-fading" srcset="images/bitcoin-small.png 500w, images/bitcoin-big.png 1000w" src='images/bitcoin-big.png' width='95%' height='95%'>
+                    <img class="mySlides w3-animate-fading" srcset="images/animecoin2-small.png 500w, images/animecoin2-big.png 1000w" src='images/animecoin2-big.png' width='95%' height='95%'>
+                    <img class="mySlides w3-animate-fading" srcset="images/anime-coin-01-small.png 500w, images/anime-coin-01-big.png 1000w" src='images/anime-coin-01-big.png' width='95%' height='95%'>
+                    <img class="mySlides w3-animate-fading" srcset="images/Thieft-ISOLATED-small.png 500w, images/Thieft-ISOLATED-big.png 1000w" src='images/Thieft-ISOLATED-big.png' width='95%' height='95%'>
 				</div>
 		  </div>
 		  <div class='col-md-8'>
@@ -131,19 +134,20 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 	<script>
-var myIndex = 0;
-carousel();
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 15000);    
-}</script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 5000);    
+        }
+    </script>
   </body>
 
 </html>
