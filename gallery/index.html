@@ -6,6 +6,9 @@
 
     <title>Anime-Coin Anime Gallery </title>
 
+        <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,7 +26,7 @@
     <!-- Navigation -->
     <div class="navigation">
       <div class="navigation-left">
-          <img src="images/logo.png" alt="" style="width:100px;">
+          <a href="http://anime-coin.com" class="no-border"><img src="images/logo.png" alt="" style="width:150px;"></a>
       </div>
       <div class="navigation-center">
         
@@ -52,12 +55,13 @@
       <div class="slider slide-1">
         <img src="images/anime-1.png" alt="">
         <div class="slider-content">
-          <h2>Jiachen Zhou</h2>
+          <h2>Omar Lillo</h2>
           <a href="https://jiacheng.deviantart.com" class="fa fa-deviantart"></a>
           <a href="https://jiacheng.deviantart.com" class="fa fa-instagram"></a>
           <a href="https://jiacheng.deviantart.com" class="fa fa-behance"></a>
-          
-          
+          <a href="#" class="fa fa-youtube video-btn" 
+            data-toggle="modal" data-src="https://www.youtube.com/embed/WumZJgS_RQU" data-target="#myModal"
+            title="Watch Making of this Anime"></a>
         </div>
         <div class="number-pagination">
           <span>1</span>
@@ -112,9 +116,31 @@
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/do7RmTdZTXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
     </div>
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="app.js" charset="utf-8"></script>
+
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          
+          <div class="modal-body">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+    </div>
+            
+            
+          </div>
+
+        </div>
+      </div>
+  </div> 
+  <!-- Modal div ends -->
+
   </body>
 
 </html>

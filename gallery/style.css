@@ -40,13 +40,12 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 25px;
-  transition: all .2s;
+  /* transition: all .2s; */
 }
 
 .navigation-left a:hover,
 .navigation-left a:focus {
-  border-color: rgb(234, 46, 73);
-  background-color: rgba(44, 45, 47, 0);
+
 }
 
 .navigation-center {
@@ -213,7 +212,7 @@ body {
 
 .slider .buy-now-btn:focus,
 .navigation .login-btn:focus {
-  outline: none;
+  /* outline: none; */
 }
 
 /* Animations */
@@ -417,3 +416,40 @@ body {
   color: white;
 }
 
+.fa-youtube {
+  background: #c4302b;
+  color: white;
+}
+
+.no-border:hover{
+  /* border:none !important; */
+}
+
+.slide-video{
+  margin-top:20px;
+}
+
+/* Modal Styling */
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+/* ========= */
