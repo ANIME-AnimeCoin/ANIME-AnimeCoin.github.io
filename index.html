@@ -49,6 +49,9 @@
 			</li>
 			<li class="nav-item">
 			  <a class="nav-link js-scroll-trigger" href="http://anime-coin.com/gallery/">Artist's Gallery</a>
+      </li>
+      <li class="nav-item">
+			  <img src="images/en.png" width="30" title="Read in English"> <a href="/ja"><img src="images/ja.png" width="30" title="Read in Japanese"></a>
 			</li>
 		  </ul>
 		</div>
@@ -165,7 +168,9 @@
       $(document).ready(function(){
           
         var userLang = navigator.language || navigator.userLanguage; 
-        console.log("The language is: " + userLang);
+        if(userLang == 'ja') {
+          window.location = "http://anime-coin.com/js/";
+        }
       });
     </script>
   </body>
