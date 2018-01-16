@@ -11,31 +11,151 @@
     {
         "name" : "Arturo_Lopz",
         "arts" : [
-            "Number_01__with_background.jpg",
+            "Number_01__with_background.jpg"
+            ]
+    },
+    {
+        "name" : "Chyi_Ming_Lee",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png"
+            ]
+    },
+    {
+        "name" : "Clement_Lee_Haoyu",
+        "arts" : [
             "Number_01.png"
             ]
     },
     {
-        "name" : "Arturo_Lopz",
+        "name" : "Dexter_Buenaluz",
         "arts" : [
-            "Number_01__with_background.jpg",
+            "Number_01.png",
             "Number_01.png"
             ]
     },
     {
-        "name" : "Arturo_Lopz",
+        "name" : "Ephraim_Mangohig",
         "arts" : [
-            "Number_01__with_background.jpg",
+            "Number_01__With_Background.png",
             "Number_01.png"
             ]
     },
     {
-        "name" : "Arturo_Lopz",
+        "name" : "Fouad_Mohamed",
         "arts" : [
-            "Number_01__with_background.jpg",
             "Number_01.png"
             ]
-        }
-    ]
+    },
+    {
+        "name" : "Francis_Lim",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Hikaru_Matsui",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Igor_Cicarini",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Irvin_Ryan_Tiu",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Jiachen_Zhoue",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png"
+            ]
+    },
+    {
+        "name" : "Kati_Drinkwine",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png",
+            "Number_03.png"
+            ]
+    },
+    {
+        "name" : "Krystaline Guevarra",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Mark_Kong",
+        "arts" : [
+            "Number_01__With_Background.png",
+            "Number_01.png",
+            "Number_02.png"
+            ]
+    },
+    {
+        "name" : "Michelle_Aguilon",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png",
+            "Number_03.png",
+            "Number_04.png",
+            "Number_05.png",
+            "Number_06.png",
+            "Number_07.png",
+            "Number_08.png",
+            "Number_09.png",
+            "Number_10.png",
+            "Number_11.png"
+            ]
+    },
+    {
+        "name" : "Midori_Matsui",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Omar_Lillo",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Riman_Ramli",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "Sara_Jean_Penoblar",
+        "arts" : [
+            "Number_01.jpg",
+            "Number_02.jpg",
+            "Number_03.jpg",
+            "Number_05.jpg",
+            "Number_06.jpg"
+            ]
+    },
+    {
+        "name" : "Veronica_Gonzalez",
+        "arts" : [
+            "Number_01.png"
+            ]
+    },
+    {
+        "name" : "William_Perkins",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png", 
+            ]
+    }    ]
 }
 
