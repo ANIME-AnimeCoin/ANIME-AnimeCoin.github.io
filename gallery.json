@@ -1,0 +1,51 @@
+{
+"artists" : [{
+    "artist": {
+        "name" : "Ardee_Arollado",
+        "arts" : [
+            "Number_01.png",
+            "Number_02.png",
+            "Number_03.png",
+            "Number_04.png"
+            ]
+        }
+    },
+    {
+    "artist": {
+        "name" : "Arturo_Lopz",
+        "arts" : [
+            "Number_01__with_background.jpg",
+            "Number_01.png"
+            ]
+        }
+    },
+    {
+    "artist": {
+        "name" : "Arturo_Lopz",
+        "arts" : [
+            "Number_01__with_background.jpg",
+            "Number_01.png"
+            ]
+        }
+    },
+    {
+    "artist": {
+        "name" : "Arturo_Lopz",
+        "arts" : [
+            "Number_01__with_background.jpg",
+            "Number_01.png"
+            ]
+            }
+    },
+    {
+    "artist": {
+        "name" : "Arturo_Lopz",
+        "arts" : [
+            "Number_01__with_background.jpg",
+            "Number_01.png"
+            ]
+            }
+        }
+    ]
+}
+
