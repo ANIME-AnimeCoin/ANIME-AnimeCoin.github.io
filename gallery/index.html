@@ -1,146 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Anime-Coin Anime Gallery </title>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Unite Gallery - Tiles - Columns</title>
 
-        <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="app.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
+	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
+	<script type='text/javascript' src='unitegallery/js/custom.js'></script>
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	<link rel='stylesheet' href='unitegallery/css/custom.css' type='text/css' />
+	<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <meta name="robots" content="noindex,follow" />
-  </head>
+</head>
 
-  <body>
+<body>
+	<div id="ini_loader" class="loader"><img src="images/logo_small.png" class="loader_inner"></div>
+	
+	<div id="gallery" style="display:none;">
 
-    <!-- Navigation -->
-    <div class="navigation">
-      <div class="navigation-left">
-          <a href="http://anime-coin.com" class="no-border"><img src="images/logo.png" alt="" style="width:150px;"></a>
-      </div>
-      <div class="navigation-center">
-        
-      </div>
-      <div class="navigation-right">
-      </div>
-    </div>
+		<a href="http://anime-coin">
+			<img alt=""
+				 src="images/logo_small.png"
+				 data-image="images/logo_bg.png"
+				 data-description="We Trust in Anime"
+				 style="display:none">
+		</a>
+ 
+	</div>
 
-    <!-- Slider Wrapper -->
-    <div class="css-slider-wrapper">
-      <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
-      <input type="radio" name="slider" class="slide-radio2" id="slider_2">
-      <input type="radio" name="slider" class="slide-radio3" id="slider_3">
-      <input type="radio" name="slider" class="slide-radio4" id="slider_4">
-  
-
-      <!-- Slider Pagination -->
-      <div class="slider-pagination">
-        <label for="slider_1" class="page1"></label>
-        <label for="slider_2" class="page2"></label>
-        <label for="slider_3" class="page3"></label>
-        <label for="slider_4" class="page4"></label>
-      </div>
-
-      <!-- Slider #1 -->
-      <div class="slider slide-1">
-        <img src="images/anime-1.png" alt="">
-        <div class="slider-content">
-          <h2>Omar Lillo</h2>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-deviantart"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-instagram"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-behance"></a>
-          <a href="#" class="fa fa-youtube video-btn" 
-            data-toggle="modal" data-src="https://www.youtube.com/embed/WumZJgS_RQU" data-target="#myModal"
-            title="Watch Making of this Anime"></a>
-        </div>
-        <div class="number-pagination">
-          <span>1</span>
-        </div>
-      </div>
-
-      <!-- Slider #2 -->
-      <div class="slider slide-2">
-        <img src="images/anime-2.png" alt="">
-        <div class="slider-content">
-          <h2>Ardee Arollado</h2>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-deviantart"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-instagram"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-behance"></a>
-          
-        </div>
-        <div class="number-pagination">
-          <span>2</span>
-        </div>
-      </div>
-
-      <!-- Slider #3 -->
-      <div class="slider slide-3">
-        <img src="images/anime-3.png" alt="">
-        <div class="slider-content">
-          <h2>Arturo Lopez</h2>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-deviantart"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-instagram"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-behance"></a>
-          
-        </div>
-        <div class="number-pagination">
-          <span>3</span>
-        </div>
-      </div>
-
-      <!-- Slider #4 -->
-      <div class="slider slide-4">
-        <img src="images/anime-4.png" alt="">
-        <div class="slider-content">
-          <h2>Chyi Ming Lee</h2>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-deviantart"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-instagram"></a>
-          <a href="https://jiacheng.deviantart.com" class="fa fa-behance"></a>
-          
-        </div>
-        <div class="number-pagination">
-          <span>4</span>
-        </div>
-      </div>
-
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/do7RmTdZTXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-    </div>
-
-
-    <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-
-          
-          <div class="modal-body">
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>        
-            <!-- 16:9 aspect ratio -->
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
-    </div>
-            
-            
-          </div>
-
-        </div>
-      </div>
-  </div> 
-  <!-- Modal div ends -->
-
-  </body>
-
+</body>
 </html>
