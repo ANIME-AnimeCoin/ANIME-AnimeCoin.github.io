@@ -2,10 +2,10 @@
 "artists" : [{
         "name" : "Ardee_Arollado",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png",
-            "Number_03.png",
-            "Number_04.png"
+            "Number_01.jpg",
+            "Number_02.jpg",
+            "Number_03.jpg",
+            "Number_04.jpg"
             ]
     },
     {
@@ -17,73 +17,73 @@
     {
         "name" : "Chyi_Ming_Lee",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png"
+            "Number_01.jpg",
+            "Number_02.jpg"
             ]
     },
     {
         "name" : "Clement_Lee_Haoyu",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Dexter_Buenaluz",
         "arts" : [
-            "Number_01.png",
-            "Number_01.png"
+            "Number_01.jpg",
+            "Number_02.jpg"
             ]
     },
     {
         "name" : "Ephraim_Mangohig",
         "arts" : [
-            "Number_01__With_Background.png",
-            "Number_01.png"
+            "Number_01__With_Background.jpg",
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Fouad_Mohamed",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Francis_Lim",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Hikaru_Matsui",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Igor_Cicarini",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Irvin_Ryan_Tiu",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Jiachen_Zhoue",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png"
+            "Number_01.jpg",
+            "Number_02.jpg"
             ]
     },
     {
         "name" : "Kati_Drinkwine",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png",
-            "Number_03.png"
+            "Number_01.jpg",
+            "Number_02.jpg",
+            "Number_03.jpg"
             ]
     },
     {
@@ -95,43 +95,43 @@
     {
         "name" : "Mark_Kong",
         "arts" : [
-            "Number_01__With_Background.png",
-            "Number_01.png",
-            "Number_02.png"
+            "Number_01__With_Background.jpg",
+            "Number_01.jpg",
+            "Number_02.jpg"
             ]
     },
     {
         "name" : "Michelle_Aguilon",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png",
-            "Number_03.png",
-            "Number_04.png",
-            "Number_05.png",
-            "Number_06.png",
-            "Number_07.png",
-            "Number_08.png",
-            "Number_09.png",
-            "Number_10.png",
-            "Number_11.png"
+            "Number_01.jpg",
+            "Number_02.jpg",
+            "Number_03.jpg",
+            "Number_04.jpg",
+            "Number_05.jpg",
+            "Number_06.jpg",
+            "Number_07.jpg",
+            "Number_08.jpg",
+            "Number_09.jpg",
+            "Number_10.jpg",
+            "Number_11.jpg"
             ]
     },
     {
         "name" : "Midori_Matsui",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Omar_Lillo",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "Riman_Ramli",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
@@ -140,21 +140,21 @@
             "Number_01.jpg",
             "Number_02.jpg",
             "Number_03.jpg",
-            "Number_05.png",
-            "Number_06.png"
+            "Number_05.jpg",
+            "Number_06.jpg"
             ]
     },
     {
         "name" : "Veronica_Gonzalez",
         "arts" : [
-            "Number_01.png"
+            "Number_01.jpg"
             ]
     },
     {
         "name" : "William_Perkins",
         "arts" : [
-            "Number_01.png",
-            "Number_02.png"
+            "Number_01.jpg",
+            "Number_02.jpg"
             ]
     }    ]
 }
